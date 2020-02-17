@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #535;
+  }
+  
+.App {
+    background: #424;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 700px;
+    color: #eee;
+  }
+  
+  
+.navbar {
+    padding: 10px 20px;
+    text-align: center;
+    background: #636;
+}
+
+.navbar h1 {
+    margin: 10px 0;
+}
+
+.booklist {
+    margin: 20px;
+}
+
+.booklist ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.booklist li {
+    background: #636;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.booklist li:hover {
+    opacity: 0.7;
+}
+
+.booklist li:active {
+    text-decoration: line-through;
+}
+
+.booklist li:hover .title::after {
+    content: ' X';
+    color: red;
+    text-decoration: none;
+}
+
+.booklist .title {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.booklist .author {
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+.empty {
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    padding: 20px;
+}
+
+input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 6px 0;
+    background: #313;
+    color: #fff;
+    border: 0;
+}
+
+input[type='submit'] {
+    margin: 10px auto;
+    background: #eee;
+    border: 0;
+    padding: 6px 20px;
+    display: block;
+}
